@@ -1,0 +1,26 @@
+Step 1. Create file in directory
+directory = OneDrive/Data_Science/How-tos 
+filename = git_how_to.txt
+
+Step 2. Go into directory on git bash
+cd OneDrive/Data_Science/How-tos
+
+Step 2.5.  Initialize directory as git repository
+git init
+
+Step 3. Add file(s)
+git add git_how_to.txt
+
+Step 4. Commit to local repository
+git commit -m "initial commit" 
+DON'T FORGET THE MESSAGE!
+
+Other functions:
+ls
+ls -la
+cd .. 
+pwd
+git status
+git log
+git diff HEAD~1
+	(~1 means 1 commit prior to current-AKA head)
